@@ -1,0 +1,156 @@
+/* ----------------nav----------------- */
+
+.nav_logo {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+ul.nav__ul {
+  display: flex;
+  align-items: center;
+  gap: 43px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li.nav__item {
+  font-weight: 400;
+  font-size: 16px !important;
+}
+
+.menu_icon {
+  display: none;
+}
+
+.clsoe_icon {
+  display: none;
+}
+
+/* ----------------nav----------------- */
+
+/* ---------------hero------------- */
+
+h1.hero_heading {
+  font-weight: 600;
+  font-size: 32px !important;
+}
+
+p.hero_pera {
+  font-weight: 400;
+  font-size: 13px !important;
+}
+
+button.hero_btn {
+  font-weight: 600;
+  font-size: 16px !important;
+  line-height: 28px;
+}
+
+input.hero_input {
+  font-weight: 400;
+  font-size: 16px !important;
+  line-height: 28px;
+}
+
+p.tag_tile {
+  font-weight: 400;
+  font-size: 12px !important;
+  line-height: 32px;
+}
+
+.hero__con {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around !important;
+  /* gap: 8rem; */
+}
+
+.hrotext_ {
+  width: calc(100% / 4) !important;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px !important;
+}
+
+.hro_img {
+  width: calc(100% / 2.4) !important;
+}
+
+section.hero__section {
+  height: 90vh !important;
+  display: grid;
+  place-content: center;
+}
+.hero_form_box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin: 1rem 0;
+}
+button.hero_btn {
+  font-weight: 500;
+  font-size: 12px !important;
+  line-height: 28px;
+  position: unset !important;
+  width: 100px !important;
+  right: 0;
+  height: 59px;
+  border: none;
+  border-radius: 15px;
+  background: black;
+  color: white;
+  text-transform: capitalize;
+}
+
+img.heroimg {
+  width: 140% !important;
+}
+
+input.hero_input {
+  font-weight: 400;
+  font-size: 16px !important;
+  line-height: 28px;
+  position: relative;
+  border: none;
+  outline: none;
+  background: #f7f7f7;
+  text-transform: capitalize;
+  width: 305px !important;
+  height: 59px;
+  border-radius: 15px;
+  padding: 0 1.4rem;
+}
+
+.hro_tag_line {
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+  flex-direction: column !important;
+}
+
+.tag_line_1 {
+  display: flex;
+  align-items: center !important;
+  gap: 1rem;
+}
+
+.tag_line_2 {
+  display: flex;
+  align-items: center !important;
+  gap: 1rem;
+}
+
+/* ---------------hero------------- */
